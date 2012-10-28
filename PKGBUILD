@@ -11,7 +11,7 @@ pkgrel=1
 pkgdesc="Ubuntu on Nexus 7 installer"
 arch=('any')
 url=https://launchpad.net/ubuntu-nexus7
-license=('custom:Ing')
+license=('GPL-3')
 depends=('zenity' 'wget' 'android-sdk-platform-tools')
 provides=("${_pkgname}")
 
