@@ -1,5 +1,5 @@
 # Contributor: Nathan "IngCr3at1on" Bass (sblood86 AT gmail.com)
-# Maintainer: I'm not going to maintain this lol
+# Maintainer: ProjectOpenCannibal
 
 pkgname=ubuntu-nexus7-installer
 _pkgname=${pkgname}
@@ -12,7 +12,7 @@ pkgdesc="Ubuntu on Nexus 7 installer"
 arch=('any')
 url=https://launchpad.net/ubuntu-nexus7
 license=('custom:Ing')
-#depends=("ubuntu-nexus7-installer>=$pkgver")
+depends=('zenity' 'wget' 'android-sdk-platform-tools')
 provides=("${_pkgname}")
 
 case "$CARCH" in
