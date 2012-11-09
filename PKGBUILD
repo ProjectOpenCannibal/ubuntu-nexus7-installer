@@ -3,7 +3,7 @@
 
 pkgname=ubuntu-nexus7-installer
 _pkgname=${pkgname}
-_pkgver=.0~
+_pkgver=.4~
 _pkgpre=1
 _pkgsuf=p
 pkgver=1.4
