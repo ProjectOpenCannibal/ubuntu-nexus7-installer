@@ -3,10 +3,10 @@
 
 pkgname=ubuntu-nexus7-installer
 _pkgname=${pkgname}
-_pkgver=.4~
+_pkgver=.6~
 _pkgpre=1
 _pkgsuf=p
-pkgver=1.4
+pkgver=1.6
 pkgrel=1
 pkgdesc="Ubuntu on Nexus 7 installer"
 arch=('any')
