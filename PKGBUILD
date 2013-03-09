@@ -3,10 +3,10 @@
 
 pkgname=ubuntu-nexus7-installer
 _pkgname=${pkgname}
-_pkgver=.6~
+_pkgver=.7~
 _pkgpre=1
 _pkgsuf=p
-pkgver=1.6
+pkgver=1.7
 pkgrel=1
 pkgdesc="Ubuntu on Nexus 7 installer"
 arch=('any')
@@ -17,8 +17,8 @@ provides=("${_pkgname}")
 
 case "$CARCH" in
     any|i686|x86_64)
-	_bldarch='all'
-	md5sums=('ac471f0ff6f3a11a454b05bca877301f');;
+  _bldarch='all'
+  md5sums=('74cabcd216ddfdc286a21020729be546');;
     # The following should not happen; provided you're using 'makepkg' ;)
     *) error "Unknown or invalid CARCH=$CARCH"; exit 1
 esac
@@ -35,4 +35,3 @@ build() {
     mkdir -p $pkgdir/usr/share/licenses/${pkgname}
     ln -s /usr/share/doc/${_pkgname}/copyright $pkgdir/usr/share/licenses/${pkgname}/LICENSE.txt
 }
-
